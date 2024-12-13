@@ -54,12 +54,14 @@ footer,
     display: grid;
 }
 
+/* GRID TEMPLATE ROWS, MAKING HEADER AND FOOTER AS BIG AS ITS CONTENT WHILE MAIN TAKES THE REST OF THE SPACE ON THE SCREEN */
 body {
     background-color: var(--body-bg-color);
 
     grid-template-rows: auto 1fr auto;
 }
 
+/* GLOBAL HEADER STYLING */
 header {
     background-color: var(--header-bg-color);
 
@@ -88,13 +90,17 @@ header {
     }
 }
 
+
+/* GLOBAL MAIN WITH LOCAL STYLING */
 main {
+    /* GLOBAL STYLING */
     /* Creating columns, auto-fitting from a range width to fit the screen width */
     /* grid-template-columns: repeat(auto-fit, minmax(20ch , 1fr)); */
     grid-template-columns: repeat(6, 1fr);
     gap: 1.5rem;
     margin: 2rem;
 
+    /* HOME PAGE STYLING */
     .card {
         grid-column: span 2;
         gap: 1rem;
@@ -127,6 +133,7 @@ main {
         }
     }
 
+    /* CHECKOUT PAGE STYLING */
     .checkout-headline {
         grid-column: span 6;
         font-size: 2.5rem;
@@ -167,11 +174,11 @@ main {
         .price {
             text-align: end;
         }
-        .checkout-underline {
-            background-color: white;
-        }
         .checkout-bold {
             font-weight: bold;
+            td {
+                border-top: 2px solid white;
+            }
         }
     }
 
@@ -183,6 +190,7 @@ main {
     }
 }
 
+/* GLOBAL FOOTER */
 footer {
     grid-template-columns: repeat(3, 1fr);
     background-color: var(--footer-bg-color);
