@@ -1,12 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!-- Importing Roboto and Fira Sans fonts. -->
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Poster Shop Checkout</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Poster Shop</title>
   </head>
   <body>
-    
+    <!-- GLOBAL HEADER CONTAINING NAV-ICON IMG, HEADLINE AND NINJAHEAD IMG -->
+    <header>
+      <img class="nav-icon" src="assets/navicon.svg" alt="">
+      <h1>Postershop</h1>
+      <img class="header-ninjahead" src="assets/ninjahead.svg" alt="">
+    </header>
+
+    <!-- MAIN CONSISTING OF CARD CLASSES ACTING AS WRAPPERS FOR CONTENT -->
+    <main>
+      <div class="card">
+        <img src="assets/char-1.png" alt="Male Astronaut">
+        <h2>Astronaut</h2>
+        <p>Marfa artisan pok pok, coloring book shaman intelligentsia meh kinfolk affogato raw denim direct trade subway tile kombucha.</p>
+        <a href="checkout.html"><button>Oh, take my money!</button></a>
+      </div>
+      <div class="card">
+        <img src="assets/char-2.png" alt="Male Ninja">
+        <h2>Ninja</h2>
+        <p>Disrupt blue bottle kombucha quinoa live-edge ennui literally flexitarian cloud bread gochujang sustainable. Ramps thundercat squid skateboard readymade.</p>
+        <a href="checkout.html"><button>Oh, take my money!</button></a>
+      </div>
+      <div class="card">
+        <img src="assets/char-3.png" alt="Male Nerd">
+        <h2>Nerd</h2>
+        <p>Tacos squid retro, activated charcoal next level kitsch vexillologist ennui. Vice offal iceland humblebrag, single-origin coffee cliche vegan adaptogen jean shorts yr.</p>
+        <a href="checkout.html"><button>Oh, take my money!</button></a>
+      </div>
+      <div class="card">
+        <img src="assets/char-11.png" alt="Female Doctor">
+        <h2>Läkare</h2>
+        <p>Disrupt blue bottle kombucha quinoa live-edge ennui literally flexitarian cloud bread gochujang sustainable. Ramps thundercat squid skateboard readymade.</p>
+        <a href="checkout.html"><button>Oh, take my money!</button></a>
+      </div>
+      <div class="card">
+        <img src="assets/char-12.png" alt="Male Guitarist">
+        <h2>Gitarrknäppare</h2>
+        <p>Tacos squid retro, activated charcoal next level kitsch vexillologist ennui. Vice offal iceland humblebrag, single-origin coffee cliche vegan adaptogen jean shorts yr.</p>
+        <a href="checkout.html"><button>Oh, take my money!</button></a>
+      </div>
+      <div class="card">
+        <img src="assets/char-4.png" alt="Male Diver">
+        <h2>Snorklare</h2>
+        <p>Man braid hammock listicle retro crucifix, tumeric poutine kale chips letterpress woke. Activated charcoal jianbing coloring book direct trade tote.</p>
+        <a href="checkout.html"><button>Oh, take my money!</button></a>
+      </div>
+      <div class="card">
+        <img src="assets/char-5.png" alt="Male Clown">
+        <h2>Clown</h2>
+        <p>Marfa artisan pok pok, coloring book shaman intelligentsia meh kinfolk affogato raw denim direct trade subway tile kombucha.</p>
+        <a href="checkout.html"><button>Oh, take my money!</button></a>
+      </div>
+      <div class="card">
+        <img src="assets/char-6.png" alt="Male Police">
+        <h2>Polis</h2>
+        <p>Disrupt blue bottle kombucha quinoa live-edge ennui literally flexitarian cloud bread gochujang sustainable. Ramps thundercat squid skateboard readymade.</p>
+        <a href="checkout.html"><button>Oh, take my money!</button></a>
+      </div>
+      <div class="card">
+        <img src="assets/char-8.png" alt="Female Fairy">
+        <h2>Fe</h2>
+        <p>Tacos squid retro, activated charcoal next level kitsch vexillologist ennui. Vice offal iceland humblebrag, single-origin coffee cliche vegan adaptogen jean shorts yr.</p>
+        <a href="checkout.html"><button>Oh, take my money!</button></a>
+      </div>
+      <div class="card card-big">
+        <img src="assets/char-7.png" alt="Female Photographer">
+        <div class="card-big-inner">
+          <h2>Fotograf</h2>
+          <p>Disrupt blue bottle kombucha quinoa live-edge ennui literally flexitarian cloud bread gochujang sustainable. Ramps thundercat squid skateboard readymade.</p>
+          <a href="checkout.html"><button>Oh, take my money!</button></a>
+        </div>
+      </div>
+      <div class="card card-big">
+        <img src="assets/char-9.png" alt="Male Personal Trainer">
+        <div class="card-big-inner">
+          <h2>Personlig Tränare</h2>
+          <p>Tacos squid retro, activated charcoal next level kitsch vexillologist ennui. Vice offal iceland humblebrag, single-origin coffee cliche vegan adaptogen jean shorts yr.</p>
+          <a href="checkout.html"><button>Oh, take my money!</button></a>
+        </div>
+      </div> 
+    </main>
+
+    <!-- GLOBAL FOOTER CONSISTING OF 2 NAV CLASSES FOR SITE NAVIGATION, ADDRESS FIELD AND SOCIAL MEDIA NAVIGATION  -->
+    <footer>
+      <nav class="page-navigation">
+        <ul>
+          <h2>Nav</h2>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="address">
+        <h2>Address</h2>
+        <p>Plinkeplonkvägen 32</p>
+        <p>888 81 Klonkberga</p>
+      </div>
+      <nav class="social_media-navigation">
+        <ul>
+          <h2>Social Media</h2>
+          <li><a href="#"><img src="assets/logo-twitter.svg" alt=""></li></a>
+          <li><a href="#"><img src="assets/logo-facebook.svg" alt=""></li></a>
+          <li><a href="#"><img src="assets/logo-linkedin.svg" alt=""></li></a>
+          <li><a href="#"><img src="assets/logo-instagram.svg" alt=""></li></a>
+        </ul>
+      </nav>
+    </footer>
   </body>
 </html>
